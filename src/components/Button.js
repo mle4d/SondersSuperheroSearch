@@ -8,7 +8,7 @@ import './button.css';
 function Button({ superheroRef, name, play, image }) {
   return (
     <>
-      <button className="hi" style={{ backgroundImage: `url(${image})` }} onClick={() => play(name)}></button>
+      <button className="shbutts" style={{ backgroundImage: `url(${image})` }} onClick={() => play(name)}></button>
       <audio ref={superheroRef} />
     </>
   );
