@@ -16,11 +16,16 @@
   width:40%;
   height: 100%;
   padding-left: 2%;
+  padding-right: 5%;
 }
 .Title {
   height: 100%;
   width: 100%;
   margin: auto;
+  img {
+    height: 100%;
+    width: 100%;
+  }
 }
 .info {
 background-color: #fedb0e;
@@ -38,8 +43,8 @@ img {
   /* width: auto; */
   justify-content: flex-end;
   img {
-    height: 85%;
+    height: 90%;
     width: 90%;
-    padding-left: 8%;
+    padding-left: 1%;
   }
 }
