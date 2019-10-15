@@ -20,7 +20,7 @@ import spiderman from './assets/superheros/spiderman.png';
 import superman from './assets/superheros/superman.png';
 import bumblebee from './assets/superheros/bumblebee.png';
 import wolverine from './assets/superheros/wolverine.png';
-import './app.css';
+
 
 const superheroMap = {
   superhero1: {
