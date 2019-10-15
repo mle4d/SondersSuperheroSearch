@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import Button from './button';
+import Button from './Button';
 import batmanrobinsound from './assets/sounds/batmanrobinsound.mp3';
 import batmansound from './assets/sounds/batmansound.mp3';
 import captainamericasound from './assets/sounds/captainamericasound.mp3';
 import deadpoolsound from './assets/sounds/deadpoolsound.mp3';
-import hulksound from './assets/superheros/hulksound.mp3';
-import powerrangerssound from './assets/sounds/powerrangerssound.mp3';
+import hulksound from './assets/sounds/hulksound.mp3';
+import powerrangersound from './assets/sounds/powerrangersound.mp3';
 import spidermansound from './assets/sounds/spidermansound.mp3';
 import supermansound from './assets/sounds/supermansound.mp3';
 import transformersound from './assets/sounds/transformersound.mp3';
 import wolverinesound from './assets/sounds/wolverinesound.mp3';
-import batmanrobin from './assets/superheros/batmanrobin';
+import batmanrobin from './assets/superheros/batmanrobin.png';
 import batman from './assets/superheros/batman.png';
 import captainamerica from './assets/superheros/captainamerica.png';
 import deadpool from './assets/superheros/deadpool.png';
@@ -50,7 +50,7 @@ const superheroMap = {
   },
   superhero6: {
     name: 'Green Ranger',
-    src: powerrangerssound,
+    src: powerrangersound,
     image: greenranger
   },
   superhero7: {
@@ -74,7 +74,7 @@ const superheroMap = {
     image: wolverine
   }
 };
-export default class App extends Component {
+export default class Superhero extends Component {
 
   superhero1 = React.createRef();
   superhero2 = React.createRef();

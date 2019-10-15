@@ -4,6 +4,7 @@ import title from './assets/title.png';
 import Pow from './assets/Pow.png';
 import info from './assets/info.png';
 import styles from './comic.css';
+import Superhero from './Superheros';
 
 
 
@@ -17,7 +18,7 @@ function Game() {
           <div className={styles.info}><img src={info}></img></div>
         </div>
         <div className={styles.comic}><img src={Pow}></img>
-          <Button />
+          <Superhero />
         </div>
       </div>
     </>
