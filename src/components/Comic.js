@@ -1,6 +1,5 @@
 import React from 'react';
 import title from './assets/title.png';
-import Pow from './assets/Pow.png';
 import info from './assets/info.png';
 import styles from './comic.css';
 import Superhero from './Superheros';

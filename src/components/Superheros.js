@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import shuffle from 'shuffle-array';
 import Button from './Button';
 import batmanrobinsound from './assets/sounds/batmanrobinsound.mp3';
 import batmansound from './assets/sounds/batmansound.mp3';
@@ -20,6 +21,8 @@ import spiderman from './assets/superheros/spiderman.png';
 import superman from './assets/superheros/superman.png';
 import bumblebee from './assets/superheros/bumblebee.png';
 import wolverine from './assets/superheros/wolverine.png';
+import Pow from './assets/Pow.png';
+import styles from './button.css';
 
 
 const superheroMap = {
@@ -74,6 +77,7 @@ const superheroMap = {
     image: wolverine
   }
 };
+
 export default class Superhero extends Component {
 
   superhero1 = React.createRef();
@@ -106,9 +110,11 @@ export default class Superhero extends Component {
     });
     
     return (
-      <section>
-        {buttonList}
-      </section>
+      <>
+        <div className={styles.comicbg} style={{ backgroundImage: `url(${ Pow })`, backgroundRepeat: 'no-repeat', backgroundPosition: 'top', marginTop: '-35px' }}>
+          {buttonList}
+        </div>
+      </>
     );
   }
 }
