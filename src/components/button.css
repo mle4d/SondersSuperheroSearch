@@ -1,0 +1,14 @@
+button {
+  height: 25vh;
+  width: 25%;
+  border-radius: 15px;
+  border: 2px solid #eecbff;
+  justify-content: space-around;
+  opacity: 0;
+  background: no-repeat center transparent;
+  justify-content: flex-end;
+  .shbutts {
+   background-image: 60%;
+  }
+}
+button:hover {opacity: 1}
