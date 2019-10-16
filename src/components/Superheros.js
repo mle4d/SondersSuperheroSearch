@@ -99,7 +99,6 @@ export default class Superhero extends Component {
     ref.current.play();
   }
   
-  
   render() {
     const superheroArr = [this.superhero1, this.superhero2, this.superhero3, this.superhero4, this.superhero5, this.superhero6, this.superhero7, this.superhero8, this.superhero9, this.superhero10];
     const buttonList = superheroArr.map((superhero, i) => {
@@ -113,3 +112,4 @@ export default class Superhero extends Component {
     );
   }
 }
+
