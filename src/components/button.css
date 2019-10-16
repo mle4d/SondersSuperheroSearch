@@ -1,14 +1,15 @@
 comicbg {
-  margin-top: -20px;
+  margin-top: -30%;
 }
 button {
-  height: 31vh;
+  height: 33vh;
   width: 33%;
   justify-content: space-around;
   opacity: 0;
   background: no-repeat center transparent;
   border: solid 2px transparent;
   outline-style: none;
+  cursor: url('./assets/cursor.png'), auto;
 }
 button:hover {opacity: 1}
 button:active {
@@ -16,4 +17,7 @@ button:active {
 }
 button:focus {
   opacity: 1;
+}
+.custom {
+  cursor: url(./assets/cursor.png);
 }
