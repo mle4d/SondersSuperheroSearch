@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import './button.css';
+import styles from './button.css';
 
 
 
@@ -8,7 +8,7 @@ import './button.css';
 function Button({ superheroRef, name, play, image }) {
   return (
     <>
-      <button className="shbutts" style={{ backgroundImage: `url(${image})` }} onClick={() => play(name)}></button>
+      <button className={styles.shbutts} style={{ backgroundImage: `url(${image})`, height: '25vh', width: '33%' }} onClick={() => play(name)}></button>
       <audio ref={superheroRef} />
     </>
   );

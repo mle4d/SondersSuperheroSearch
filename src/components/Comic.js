@@ -17,7 +17,7 @@ function Game() {
           <div className={styles.info}><img src={info}></img></div>
         </div>
         <div className={styles.comic} style={{ backgroundImage: `url(${ Pow })`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center' }}>
-          <Superhero />
+          <div className={styles.superheros}><Superhero /></div>
         </div>
       </div>
     </>
