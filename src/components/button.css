@@ -1,13 +1,19 @@
-
+comicbg {
+  margin-top: -20px;
+}
 button {
-  height: 25vh;
+  height: 31vh;
   width: 33%;
   justify-content: space-around;
   opacity: 0;
   background: no-repeat center transparent;
   border: solid 2px transparent;
-  padding-bottom: 10%;
-  padding-top: 10%;
-  /* margin-top: 50px;   */
+  outline-style: none;
 }
 button:hover {opacity: 1}
+button:active {
+  opacity: .85;
+}
+button:focus {
+  opacity: 1;
+}
