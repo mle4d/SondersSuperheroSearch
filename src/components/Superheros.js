@@ -159,9 +159,9 @@ export default class Superhero extends Component {
   
   render() {
     const superheroArr = [this.superhero1, this.superhero2, this.superhero3, this.superhero4, this.superhero5, this.superhero6, this.superhero7, this.superhero8, this.superhero9, this.superhero10, this.superhero11, this.superhero12, this.superhero13, this.superhero14, this.superhero15, this.superhero16, this.superhero17];
-    superheroArr.sort(() => 0.5 - Math.random());
+ 
     const buttonList = superheroArr.map((superhero, i) => {
-      return <Button image={superheroMap[`superhero${i + 1}`].image} key={i} superheroRef={superhero} name={`superhero${i + 1}`} play={this.play} onClick={this.count}/>;
+      return <Button image={superheroMap[`superhero${i + 1}`].image} key={i} superheroRef={superhero} name={`superhero${i + 1}`} play={this.play} />;
     });
     
     return (
