@@ -1,8 +1,8 @@
-comicbg {
-  margin-top: -30%;
+.count {
+ font-size: 100px;
 }
 button {
-  height: 33vh;
+  height: 33.5vh;
   width: 33%;
   justify-content: space-around;
   opacity: 0;
