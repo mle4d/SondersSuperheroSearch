@@ -20,7 +20,7 @@ Button.propTypes = {
   superheroRef: PropTypes.object.isRequired,
   name: PropTypes.string.isRequired,
   play: PropTypes.func.isRequired,
-  image: PropTypes.object.isRequired
+  image: PropTypes.string.isRequired
 };
 
 export default Button;
