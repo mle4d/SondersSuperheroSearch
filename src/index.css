@@ -1,8 +1,4 @@
 body {
-  /* background-image: url('./components/assets/background.png'); */
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-size: 95% 95%;
   background-color: #f23c27;
   overflow: hidden;
 }
