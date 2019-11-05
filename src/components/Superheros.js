@@ -85,27 +85,27 @@ const superheroMap = {
     src: wolverinesound,
     image: wolverine
   },
-  superhero12: {
+  superhero11: {
     name: 'Iron Man',
     src: ironmansound,
     image: ironman
   },
-  superhero13: {
+  superhero12: {
     name: 'Wonder Woman',
     src: wonderwomansound,
     image: wonderwoman
   },
-  superhero14: {
+  superhero13: {
     name: 'Aquaman',
     src: aquamansound,
     image: aquaman
   },
-  superhero15: {
+  superhero14: {
     name: 'Black Panther',
     src: blackpanthersound,
     image: blackpanther
   },
-  superhero16: {
+  superhero15: {
     name: 'Captain Marvel',
     src: captainmarvelsound,
     image: captainmarvel
@@ -124,11 +124,12 @@ export default class Superhero extends Component {
   superhero8 = React.createRef();
   superhero9 = React.createRef();
   superhero10 = React.createRef();
+  superhero11 = React.createRef();
   superhero12 = React.createRef();
   superhero13 = React.createRef();
   superhero14 = React.createRef();
   superhero15 = React.createRef();
-  superhero16 = React.createRef();
+  
  
 
   state = {
@@ -144,7 +145,7 @@ export default class Superhero extends Component {
 
 
   render() {
-    const superheroArr = [this.superhero1, this.superhero2, this.superhero3, this.superhero4, this.superhero5, this.superhero6, this.superhero7, this.superhero8, this.superhero9, this.superhero10, this.superhero12, this.superhero13, this.superhero14, this.superhero15, this.superhero16];
+    const superheroArr = [this.superhero1, this.superhero2, this.superhero3, this.superhero4, this.superhero5, this.superhero6, this.superhero7, this.superhero8, this.superhero9, this.superhero10, this.superhero11, this.superhero12, this.superhero13, this.superhero14, this.superhero15];
     const buttonList = superheroArr.map((superhero, i) => {
       return <Button image={superheroMap[`superhero${i + 1}`].image} key={i} superheroRef={superhero} name={`superhero${i + 1}`} play={this.play} />;
     });
