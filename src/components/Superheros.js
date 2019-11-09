@@ -152,7 +152,7 @@ export default class Superhero extends Component {
     
     return (
       <>
-        <div className={styles.comicbg} style={{ backgroundImage: `url(${ Pow })`, backgroundRepeat: 'no-repeat', backgroundPosition: 'top', marginTop: '-35px' }}>
+        <div className={styles.comicbg} style={{ backgroundImage: `url(${ Pow })`, backgroundRepeat: 'no-repeat', backgroundPosition: 'top', height: '200%', width: '100%', marginTop: '-35px' }}>
           {buttonList}
         </div>
       </>
